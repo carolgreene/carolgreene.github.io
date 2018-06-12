@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Refactoring Views With Helpers"
-date:       2018-06-12 23:45:58 +0000
+date:       2018-06-12 19:45:59 -0400
 permalink:  refactoring_views_with_helpers
 ---
 
@@ -39,6 +39,7 @@ songs/show:
 <%= link_to "All Songs", songs_path %>
 ```
 songs/index:
+```
 <ul>
 <% @songs.each do |song| %>
   <li><%= link_to song.title, song_path(song) %></li>
@@ -48,4 +49,5 @@ songs/index:
 <br>
 <%= link_to "Add New Song", new_song_path %>
 
+```
 Once I finished these two methods, all of my tests passed. I was really glad to get through the lab.   I know I need a lot of practice to really get a handle on Rails, but I feel that I have a better understanding of  how helper methods work & how the different parts of the program fit together. 
