@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Routing & Nested Resources Lab"
-date:       2018-07-05 21:39:39 +0000
+date:       2018-07-05 17:39:40 -0400
 permalink:  routing_and_nested_resources_lab
 ---
 
@@ -45,7 +45,7 @@ end
 
 I felt pretty good at this point since I was moving right along with the lab. I then got to the next requirement & things started to slow down. The next three steps were to update the Songs Controller for index & show. I first tried to do everything to index at once and found that didn't work at all. I then broke it down by requirement and listed everything out and eventually got the tests to pass.
 
--The next steps was to update the songs_controller to allow the songs#index and songs#show actions to handle a valid song for the artist.
+-The next step was to update the songs_controller to allow the songs#index and songs#show actions to handle a valid song for the artist.
 This method will look for an artist by id if an artist is in the params and then assign @songs to that artist's songs. If there is no artist in the params, it will assign @song to Song.all.
 
 ```
