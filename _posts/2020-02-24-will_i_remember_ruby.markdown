@@ -1,14 +1,14 @@
 ---
 layout: post
 title:      "Will I remember Ruby?"
-date:       2020-02-25 02:08:19 +0000
+date:       2020-02-24 21:08:20 -0500
 permalink:  will_i_remember_ruby
 ---
 
 
-I was so excited when I finally graduated from the Software Engineering program. It took so long & I couldn't wait to be done. Once reality set in though, I realized that I needed to review everything to make sure that I had a good grasp of what I learned. I went back to the beginning Ruby section to look it over & was surprised at how much I'd forgotten. At that point I decided it would be fun to do a small CLI project to refresh my memory.
+I was so excited when I finally graduated from the Software Engineering program. It took so long and I couldn't wait to be done. Once reality set in though, I realized that I needed to review everything to make sure that I had a good grasp of what I learned. I went back to the beginning Ruby section to look it over and was surprised at how much I'd forgotten. At that point I decided it would be fun to do a small CLI project to refresh my memory.
 
-I settled on scraping the timeout website to get the best parks in Chicago. The first thing I realized was that I had no idea how to start a Ruby gem, I had completely forgotten! I did  a little research online & had it going in no time. 
+I settled on scraping the timeout website to get the best parks in Chicago. The first thing I realized was that I had no idea how to start a Ruby gem, I had completely forgotten! I did  a little research online and had it going in no time. 
 
 Follow the steps below to set up a Ruby Gem:
 
@@ -55,7 +55,7 @@ To fix that I just had to type in:  chmod +x"name of file"
 
 Once that was done I ran ./bin/"name of file" and got "Welcome" back. I was ready to go!
 
-Doing this little project sure went a ton faster than the first Ruby gem I did. By the time I finished it, everything had come back to me & I had another small project under my belt!
+Doing this little project sure went a ton faster than the first Ruby gem I did. By the time I finished it, everything had come back to me and I had another small project under my belt!
 
 
 
