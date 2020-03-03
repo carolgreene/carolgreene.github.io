@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "A JavaScript Tip"
-date:       2020-03-03 01:56:30 +0000
+date:       2020-03-02 20:56:31 -0500
 permalink:  a_javascript_tip
 ---
 
@@ -19,9 +19,9 @@ That's when my program broke. My program was not set up to handle decimals. It c
 						
 I set up the step at .01 to handle denominations down to the penny.  Once I did that, I didn't get an error any more when I entered in the bill, however, my calculations still weren't working right.  I ended up setting up my code in index.js to use the bill amount in cents instead of dollars with a decimal.
 
-`const billAmountCents = document.getElementById("bill_amount").value * 100``
+`const billAmountCents = document.getElementById("bill_amount").value * 100`
 
-```
+
 This enabled me to get my calculations done correctly. Once I calculated the tip amount, I then converted the bill amount to dollars & cents & added it to the tip amount to get the total due.
 
 ```const tipAmount = (billAmountCents * (percent/100))/100  
