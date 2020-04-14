@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "The App Continues"
-date:       2020-04-14 00:55:29 +0000
+date:       2020-04-13 20:55:30 -0400
 permalink:  the_app_continues
 ---
 
