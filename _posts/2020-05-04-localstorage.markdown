@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "localStorage"
+title:      "Local Storage"
 date:       2020-05-04 21:00:35 -0400
 permalink:  localstorage
 ---
