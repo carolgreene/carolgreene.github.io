@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Inline, block, & inline-block"
-date:       2020-04-20 21:08:22 +0000
+date:       2020-04-20 17:08:23 -0400
 permalink:  inline_block_and_inline-block
 ---
 
@@ -13,6 +13,7 @@ One of the things I reviewed was the difference between inline, block, and inlin
 **inline**- Displays the element inline, or on the same line. It does not begin on a new line and only takes up as much width as the content of the element.  You can not set height and width for the element, it will have no effect. Generally speaking, inline elements can only contain data and other inline elements. You can not put block level elements inside inline elements.
 
 Here's a few of the many elements and formatting tags that default to inline:
+```
 <a>
 <but>
 <data>
@@ -23,11 +24,14 @@ Here's a few of the many elements and formatting tags that default to inline:
 <script>
 <select>
 <span>
+```
+
 
 
 **block**- Displays the element on a new line and takes up the whole width of the line. You are able to set the height and width values for block elements and block elements can contain either block or inline elements inside of it.
 
 Here's a few of the elements that default to block:
+```
 <div>
 <form>
 <header>
@@ -35,6 +39,8 @@ Here's a few of the elements that default to block:
 <li>
 <ol>
 <p>
+```
+
 
 **inline-block**- This will give you the best of both worlds. Inline-block does not add a line break so it displays the element next to another element, but you are able to set the height and width for the element. 
 
