@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "FastJsonapi"
-date:       2020-04-07 00:19:58 +0000
+date:       2020-04-06 20:19:59 -0400
 permalink:  fastjsonapi
 ---
 
@@ -14,8 +14,8 @@ gem 'fast_jsonapi'
 ```
 This gave me access to the serializer generator so I could add the serializer for my models by running:
 
-rails g serializer show
-rails g serializer user
+rails g serializer Show
+rails g serializer User
 
 This created the following serializer classes for me and I added the attributes.
 ```
